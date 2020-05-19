@@ -2,6 +2,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+To create react project run next:
+
+### `npx create-react-app name-of-your-project`
+
+To install latest version of Bootstrap please run command:
+
+### `npm i -save bootstrap@latest` 
+
 In the project directory, you can run:
 
 ### `yarn start`
