@@ -8,7 +8,11 @@ To create react project run next:
 
 To install latest version of Bootstrap please run command:
 
-### `npm i -save bootstrap@latest` 
+### `npm i -save bootstrap@latest`
+
+After installed Bootstrap add next to index.js
+
+### `import '../node_modules/bootstrap/dist/css/bootstrap.min.css'`
 
 In the project directory, you can run:
 
