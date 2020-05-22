@@ -1,11 +1,12 @@
 import React from 'react';
 import img1 from '../img/events.png';
+import '../css/card.css';
 
 const Card = props => {
     return(
         <div className="card text-center">
             <div className="overflow">
-                <img src={ img1 } alt="image 1"/>
+                <img src={ img1 } alt="project" className="card-img-top"/>
             </div>
             <div className="card-body text-dark">
                 <h4 className="card-title">
@@ -17,7 +18,7 @@ const Card = props => {
                 <a href="/" className="btn btn-outline-success">Preview</a>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Card;
